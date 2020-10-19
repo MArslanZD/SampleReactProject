@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    height: 0;
+   
+  }
+  body{
+     background:#0F0F0F;
+  }
+  .wrapp {
+   width: 90%;
+   margin: 0 auto;
+    text-align: center;
+    font-family : arial;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .main-header{
+    width: 100%;
+    height: 75px;
+    background: rgb(8, 8, 8);
+     border-bottom: 2px solid #FF5900;
+  }
+  
+  
+  
+  .main-section .movies {
+   
+   width: 80%;
+    height: 400px;
+    margin: 40px auto;
+   
+    
+  }
+  
+  .main-section .movies .movie1{
+    margin: 10px;
+    float: left;
+    width: 140px;
+    height: 200px;
+    background-image:url(https://i.postimg.cc/tTkh04PH/movie1.jpg);
+    border: 3px solid #fff;
+    text-align:center; 
+  }
+  
+  
+  .main-section .movies .movie1:hover{
+    
+    cursor: pointer;
+    
+    opacity: 0.6;
+   
+  }
+  
+   
+  
+  .main-section .movies .movie2{
+    
+     margin: 10px;
+    float: left;
+    width: 140px;
+    height: 200px;
+   background-image: url(https://i.postimg.cc/K88wC1Mm/movie2.jpg);
+    border: 3px solid #fff;
+  }
+  .main-section .movies .movie2:hover{
+    border: 3px solid #FF5900;
+     
+   
+  }
+  
+  
+  .main-section .movies .movie3{
+     margin: 10px;
+    float: left;
+    width: 140px;
+    height: 200px;
+   background-image: url(https://i.postimg.cc/hPW7CmN7/movie3.jpg);
+    border: 3px solid #fff;
+  }
+  .main-section .movies .movie3:hover{
+     border: 3px solid #FF5900;
+  }
+  
+  
+  .main-section .movies .movie4{
+     margin: 10px ;
+    float:left;
+    width: 140px;
+    height: 200px;
+   background-image: url(https://i.postimg.cc/mr5P71Qk/movie4.jpg);
+    border: 3px solid #fff;
+  }
+  .main-section .movies .movie4:hover{
+    border: 3px solid #FF5900;
+  }
+  
+  .main-section .movies .movie5{
+     margin: 10px;
+    float: left;
+    width: 140px;
+    height: 200px;
+   background-image: url(https://i.postimg.cc/t4rJHnvk/movie5.jpg);
+    border: 3px solid #fff;
+  }
+  .main-section .movies .movie5:hover{
+     border: 3px solid #FF5900;
+  }
+  
+  
+  .clear-float {
+    clear: both;
+  }
